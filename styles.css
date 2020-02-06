@@ -1,0 +1,36 @@
+nav {
+  float: right;  
+  padding-top: 20px;
+}
+
+nav a {
+  background-color: ;
+  font-size: 30px;
+  margin: 5px;
+  text-decoration: none;
+  margin-right: 0px;
+  font-family: 'Dancing Script', cursive;
+  color: black;
+  padding: 0px;
+  margin: 0px;
+}
+nav a:hover {
+  background-color: blue;
+}
+
+h1 {
+  font-family: 'Dancing Script', cursive;
+  margin-top: 50px;
+  float: right;
+}
+
+#card {
+  display: flex;
+  justify-content: space-around;
+}
+
+.cards {
+  box-shadow: 5px 5px 5px grey;
+  padding: 20px;
+
+}
