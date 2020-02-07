@@ -1,3 +1,8 @@
+ body {
+   background-color: lightblue;
+   margin: 20px;
+ }
+ 
  nav {
   float: right;  
   padding-top: 20px;
@@ -15,13 +20,21 @@ nav a {
   margin: 0px;
 }
 nav a:hover {
-  background-color: blue;
+  background-color: rgb(115, 255, 0);
+  opacity: .8;
+}
+
+.name {
+  height: 300px;
+  width: 100%;
+  background-image: url();
 }
 
 h1 {
   font-family: 'Dancing Script', cursive;
   margin-top: 50px;
-  float: right;
+  text-align: center;
+
 }
 
 #card {
@@ -35,9 +48,15 @@ h1 {
   box-shadow: 5px 5px 5px grey;
   box-shadow: -5px -5px -5px grey;
   padding: 20px;
-  margin-left: 200px;
+  margin-left: 2px;
   align-items: center;
-  background-color: hotpink;
+  background-color: rgb(229, 230, 235);
+  height: 400px;
+  width: 300px;
+}
+
+.cards:hover {
+  box-shadow: 10px 10px 10px grey;
 }
 
 a {
@@ -46,5 +65,5 @@ a {
 }
 
 #card {
-  margin-left: 200px;
+  margin-left: 50px;
 }
