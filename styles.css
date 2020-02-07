@@ -38,8 +38,12 @@ h1 {
   text-align: center;
   font-size: 50px;
   color: ;
-  
+  text-shadow: 2px 2px 2px grey;
 
+}
+
+h1:hover {
+  text-shadow: 5px 5px 5px grey;
 }
 
 #about .me{
@@ -49,6 +53,10 @@ h1 {
 #about img {
   border-radius: 50%;
   float: left;
+}
+
+p {
+  font-size: 18px;
 }
 
 #card {
@@ -64,7 +72,7 @@ h1 {
   margin-left: 2px;
   align-items: center;
   background-color: rgb(229, 230, 235);
-  height: 400px;
+  height: 440px;
   width: 300px;
 }
 
@@ -79,6 +87,25 @@ a {
 
 #card {
   margin-left: 50px;
+}
+
+span {
+  color: rgb(0, 17, 255);
+}
+
+#image p {
+  float: left;
+  border-radius: 100%;
+  padding-right: 50px;
+}
+
+.interest {
+  padding: 0px;
+  list-style: none;
+}
+
+.hobbies {  
+  padding: 0px;
 }
 
 .footer {
@@ -109,7 +136,6 @@ a {
 
 .footer .footer-top h4 {
  flex: 1;
- border: 2px solid white;
  margin-left: 30px;
  text-align: center;
  margin-top: 10px;
